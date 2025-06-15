@@ -1,0 +1,5 @@
+front: Back
+friendly: thân thiện
+fussy: cầu kỳ kiểu cách
+generous: rộng lượng hào phóng
+grateful: biết ơn

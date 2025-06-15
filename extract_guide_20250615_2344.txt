@@ -1,0 +1,64 @@
+
+# HƯỚNG DẪN TRÍCH XUẤT TỪ VỰNG TỪ ẢNH
+
+## Bước 1: Chụp ảnh rõ nét
+- Đảm bảo ánh sáng tốt
+- Góc chụp thẳng, không bị nghiêng
+- Chữ rõ ràng, đọc được
+
+## Bước 2: Tạo file vocabularylist.csv
+Từ ảnh bạn chụp, điền vào file CSV theo mẫu:
+
+### Cột Word: 
+- Ghi từ tiếng Anh (ví dụ: friendly)
+
+### Cột Pronunciation:
+- Copy phiên âm từ sách (ví dụ: /ˈfrendli/)
+- Nếu không có, để trống
+
+### Cột Vietnamese:
+- Ghi nghĩa tiếng Việt (ví dụ: thân thiện), nếu nghĩa này không phù hợp với Word (kết hợp cả các cột khác) thì tự cho nghĩa tiếng việt khác
+
+### Cột Part_of_Speech:
+- adj (tính từ), noun (danh từ), verb (động từ), adv (trạng từ)
+
+### Cột Example_Sentence:
+- Tạo câu ví dụ hoặc copy từ sách
+- Nếu không có, để trống
+
+### Cột Fill_in_Blank_Question:
+- Tạo câu hỏi điền từ (ví dụ: "She is very _______ to everyone.")
+- Nếu không muốn tạo, để trống
+
+### Cột Fill_in_Blank_Answer:
+- Điền từ cần điền (thường giống với cột Word)
+
+## Bước 3: Tạo file exercises.csv (nếu có bài tập)
+Từ ảnh bài tập, điền vào file CSV:
+
+### Cột Question:
+- Copy nguyên câu hỏi, thay đáp án bằng _______
+- Ví dụ: "A/an _______ person who is very kind."
+
+### Cột Answer:
+- Điền đáp án đúng
+
+### Cột Type:
+- "definition" cho bài định nghĩa
+- "dialogue" cho bài đối thoại
+
+### Cột Difficulty:
+- "basic", "intermediate", hoặc "advanced"
+
+### Cột Context:
+- Chủ đề (ví dụ: "personality traits")
+
+## Bước 4: Chạy script
+1. Đặt các file CSV vào folder 'input/'
+2. Chạy: python enhanced_anki_generator.py
+3. Import vào Anki theo hướng dẫn
+
+## MẸO HAY:
+- Có thể chụp nhiều trang, tạo nhiều file CSV
+- Đặt tên file theo chủ đề: "lesson1_vocabulary.csv", "lesson1_exercises.csv"
+- Script sẽ tự động xử lý tất cả file CSV trong folder input/

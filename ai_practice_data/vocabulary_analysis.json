@@ -1,0 +1,74 @@
+{
+  "total_words": 8,
+  "proficiency_breakdown": {
+    "mastered": 0,
+    "familiar": 0,
+    "learning": 3,
+    "difficult": 5
+  },
+  "detailed_vocabulary": {
+    "mastered": [],
+    "familiar": [],
+    "learning": [
+      {
+        "word": "friendly",
+        "meaning": "thân thiện",
+        "level": "learning",
+        "tags": "adj character-traits",
+        "part_of_speech": "adjective"
+      },
+      {
+        "word": "generous",
+        "meaning": "rộng lượng hào phóng",
+        "level": "learning",
+        "tags": "adj character-traits",
+        "part_of_speech": "adjective"
+      },
+      {
+        "word": "grateful",
+        "meaning": "biết ơn",
+        "level": "learning",
+        "tags": "adj character-traits",
+        "part_of_speech": "adjective"
+      }
+    ],
+    "difficult": [
+      {
+        "word": "front",
+        "meaning": "Back",
+        "level": "difficult",
+        "tags": "adj character-traits",
+        "part_of_speech": "adjective"
+      },
+      {
+        "word": "friendly",
+        "meaning": "thân thiện",
+        "level": "difficult",
+        "tags": "adj character-traits",
+        "part_of_speech": "adjective"
+      },
+      {
+        "word": "fussy",
+        "meaning": "cầu kỳ kiểu cách",
+        "level": "difficult",
+        "tags": "adj character-traits",
+        "part_of_speech": "adjective"
+      },
+      {
+        "word": "generous",
+        "meaning": "rộng lượng hào phóng",
+        "level": "difficult",
+        "tags": "adj character-traits",
+        "part_of_speech": "adjective"
+      },
+      {
+        "word": "grateful",
+        "meaning": "biết ơn",
+        "level": "difficult",
+        "tags": "adj character-traits",
+        "part_of_speech": "adjective"
+      }
+    ]
+  },
+  "analysis_date": "2025-06-16T02:29:23.840060"
+}

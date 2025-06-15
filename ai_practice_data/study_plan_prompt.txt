@@ -1,0 +1,16 @@
+# PERSONALIZED STUDY PLAN
+
+Total words analyzed: 8
+- Mastered: 0 words
+- Familiar: 0 words
+- Learning: 3 words
+- Difficult: 5 words
+
+WEEKLY SCHEDULE:
+- Monday: ChatGPT Voice practice (15 min)
+- Tuesday: Claude Writing practice (20 min)
+- Wednesday: Review and repeat difficult words
+- Thursday: Mixed practice with both AI tools
+- Friday: Self-assessment and planning
+
+Remember: Consistency is key! Practice a little every day.

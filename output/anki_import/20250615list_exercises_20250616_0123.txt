@@ -1,0 +1,505 @@
+Front	Back	Tags
+"<div class=""exercise-front definition"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">📖 Definition Exercise</span>
+                <span class=""difficulty basic"">BASIC</span>
+            </div>
+            <div class=""question-content"">
+                A/an _______ person who is shy and nervous; not brave.
+            </div>
+            <div class=""instruction"">💭 Think of the personality trait that fits</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">timid</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                A/an <span class=""highlight"">timid</span> person who is shy and nervous; not brave.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise definition basic personality-traits
+"<div class=""exercise-front definition"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">📖 Definition Exercise</span>
+                <span class=""difficulty advanced"">ADVANCED</span>
+            </div>
+            <div class=""question-content"">
+                A/an _______ person who habitually talks too much, especially about unimportant things.
+            </div>
+            <div class=""instruction"">💭 Think of the personality trait that fits</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">garrulous</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                A/an <span class=""highlight"">garrulous</span> person who habitually talks too much, especially about unimportant things.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise definition advanced personality-traits
+"<div class=""exercise-front definition"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">📖 Definition Exercise</span>
+                <span class=""difficulty basic"">BASIC</span>
+            </div>
+            <div class=""question-content"">
+                A/an _______ person that can be trusted to do something well; that he or she can rely on.
+            </div>
+            <div class=""instruction"">💭 Think of the personality trait that fits</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">reliable</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                A/an <span class=""highlight"">reliable</span> person that can be trusted to do something well; that he or she can rely on.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise definition basic personality-traits
+"<div class=""exercise-front definition"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">📖 Definition Exercise</span>
+                <span class=""difficulty intermediate"">INTERMEDIATE</span>
+            </div>
+            <div class=""question-content"">
+                A/an _______ person who tends to forget things, perhaps because he or she is not thinking about what is around him or her, but about something else.
+            </div>
+            <div class=""instruction"">💭 Think of the personality trait that fits</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">absent-minded</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                A/an <span class=""highlight"">absent-minded</span> person who tends to forget things, perhaps because he or she is not thinking about what is around him or her, but about something else.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise definition intermediate personality-traits
+"<div class=""exercise-front definition"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">📖 Definition Exercise</span>
+                <span class=""difficulty advanced"">ADVANCED</span>
+            </div>
+            <div class=""question-content"">
+                A/an _______ person who is hard-working.
+            </div>
+            <div class=""instruction"">💭 Think of the personality trait that fits</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">industrious</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                A/an <span class=""highlight"">industrious</span> person who is hard-working.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise definition advanced personality-traits
+"<div class=""exercise-front definition"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">📖 Definition Exercise</span>
+                <span class=""difficulty advanced"">ADVANCED</span>
+            </div>
+            <div class=""question-content"">
+                A/an _______ person who is bad-tempered; likely to get angry easily or without good reason.
+            </div>
+            <div class=""instruction"">💭 Think of the personality trait that fits</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">tetchy</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                A/an <span class=""highlight"">tetchy</span> person who is bad-tempered; likely to get angry easily or without good reason.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise definition advanced personality-traits
+"<div class=""exercise-front definition"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">📖 Definition Exercise</span>
+                <span class=""difficulty basic"">BASIC</span>
+            </div>
+            <div class=""question-content"">
+                A/an _______ person who always tells people what to do.
+            </div>
+            <div class=""instruction"">💭 Think of the personality trait that fits</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">bossy</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                A/an <span class=""highlight"">bossy</span> person who always tells people what to do.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise definition basic personality-traits
+"<div class=""exercise-front definition"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">📖 Definition Exercise</span>
+                <span class=""difficulty advanced"">ADVANCED</span>
+            </div>
+            <div class=""question-content"">
+                A/an _______ person who is able to suffer pain or trouble without complaining or showing what he or she is feeling.
+            </div>
+            <div class=""instruction"">💭 Think of the personality trait that fits</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">stoical</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                A/an <span class=""highlight"">stoical</span> person who is able to suffer pain or trouble without complaining or showing what he or she is feeling.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise definition advanced personality-traits
+"<div class=""exercise-front definition"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">📖 Definition Exercise</span>
+                <span class=""difficulty intermediate"">INTERMEDIATE</span>
+            </div>
+            <div class=""question-content"">
+                A/an _______ person who says unpleasant and unkind things about other people.
+            </div>
+            <div class=""instruction"">💭 Think of the personality trait that fits</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">bitchy</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                A/an <span class=""highlight"">bitchy</span> person who says unpleasant and unkind things about other people.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise definition intermediate personality-traits
+"<div class=""exercise-front definition"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">📖 Definition Exercise</span>
+                <span class=""difficulty basic"">BASIC</span>
+            </div>
+            <div class=""question-content"">
+                A/an _______ person who likes to be with other people.
+            </div>
+            <div class=""instruction"">💭 Think of the personality trait that fits</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">sociable</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                A/an <span class=""highlight"">sociable</span> person who likes to be with other people.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise definition basic personality-traits
+"<div class=""exercise-front definition"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">📖 Definition Exercise</span>
+                <span class=""difficulty basic"">BASIC</span>
+            </div>
+            <div class=""question-content"">
+                A/an _______ person who does something at the arranged or correct time; not late.
+            </div>
+            <div class=""instruction"">💭 Think of the personality trait that fits</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">punctual</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                A/an <span class=""highlight"">punctual</span> person who does something at the arranged or correct time; not late.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise definition basic personality-traits
+"<div class=""exercise-front definition"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">📖 Definition Exercise</span>
+                <span class=""difficulty advanced"">ADVANCED</span>
+            </div>
+            <div class=""question-content"">
+                A/an _______ person who shows strong unreasonable beliefs or opinions and a refusal to change them.
+            </div>
+            <div class=""instruction"">💭 Think of the personality trait that fits</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">bigoted</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                A/an <span class=""highlight"">bigoted</span> person who shows strong unreasonable beliefs or opinions and a refusal to change them.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise definition advanced personality-traits
+"<div class=""exercise-front definition"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">📖 Definition Exercise</span>
+                <span class=""difficulty intermediate"">INTERMEDIATE</span>
+            </div>
+            <div class=""question-content"">
+                A/an _______ person who is able to say or write clever, amusing things.
+            </div>
+            <div class=""instruction"">💭 Think of the personality trait that fits</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">witty</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                A/an <span class=""highlight"">witty</span> person who is able to say or write clever, amusing things.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise definition intermediate personality-traits
+"<div class=""exercise-front definition"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">📖 Definition Exercise</span>
+                <span class=""difficulty intermediate"">INTERMEDIATE</span>
+            </div>
+            <div class=""question-content"">
+                A/an _______ person who acts suddenly without thinking carefully about what might happen because of what he or she is doing.
+            </div>
+            <div class=""instruction"">💭 Think of the personality trait that fits</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">impulsive</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                A/an <span class=""highlight"">impulsive</span> person who acts suddenly without thinking carefully about what might happen because of what he or she is doing.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise definition intermediate personality-traits
+"<div class=""exercise-front definition"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">📖 Definition Exercise</span>
+                <span class=""difficulty intermediate"">INTERMEDIATE</span>
+            </div>
+            <div class=""question-content"">
+                A/an _______ person who has too much pride in himself or herself and what he or she does.
+            </div>
+            <div class=""instruction"">💭 Think of the personality trait that fits</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">conceited</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                A/an <span class=""highlight"">conceited</span> person who has too much pride in himself or herself and what he or she does.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise definition intermediate personality-traits
+"<div class=""exercise-front dialogue"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">💬 Dialogue Exercise</span>
+                <span class=""difficulty basic"">BASIC</span>
+            </div>
+            <div class=""question-content"">
+                <strong>A:</strong> Lucy never thinks about anyone but herself. <br><br><strong>B:</strong> Yes, she can be a bit _______ sometimes.
+            </div>
+            <div class=""instruction"">💭 What word completes the dialogue?</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">selfish</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                <strong>A:</strong> Lucy never thinks about anyone but herself. <br><br><strong>B:</strong> Yes, she can be a bit <span class=""highlight"">selfish</span> sometimes.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise dialogue basic personality-traits
+"<div class=""exercise-front dialogue"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">💬 Dialogue Exercise</span>
+                <span class=""difficulty basic"">BASIC</span>
+            </div>
+            <div class=""question-content"">
+                <strong>A:</strong> Oh, Laura's impossible. One minute life is wonderful and the next minute she's in her room crying. <br><br><strong>B:</strong> Yes, she can be a bit _______, can't she?
+            </div>
+            <div class=""instruction"">💭 What word completes the dialogue?</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">moody</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                <strong>A:</strong> Oh, Laura's impossible. One minute life is wonderful and the next minute she's in her room crying. <br><br><strong>B:</strong> Yes, she can be a bit <span class=""highlight"">moody</span>, can't she?
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise dialogue basic personality-traits
+"<div class=""exercise-front dialogue"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">💬 Dialogue Exercise</span>
+                <span class=""difficulty intermediate"">INTERMEDIATE</span>
+            </div>
+            <div class=""question-content"">
+                <strong>A:</strong> I don't really like Bob. He seems to think that he's more important than anyone else. <br><br><strong>B:</strong> Certainly, he can be very _______.
+            </div>
+            <div class=""instruction"">💭 What word completes the dialogue?</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">arrogant</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                <strong>A:</strong> I don't really like Bob. He seems to think that he's more important than anyone else. <br><br><strong>B:</strong> Certainly, he can be very <span class=""highlight"">arrogant</span>.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise dialogue intermediate personality-traits
+"<div class=""exercise-front dialogue"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">💬 Dialogue Exercise</span>
+                <span class=""difficulty basic"">BASIC</span>
+            </div>
+            <div class=""question-content"">
+                <strong>A:</strong> Mark's so fun. He's got a great sense of humour. <br><br><strong>B:</strong> Yes, he can be very _______ at times.
+            </div>
+            <div class=""instruction"">💭 What word completes the dialogue?</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">amusing</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                <strong>A:</strong> Mark's so fun. He's got a great sense of humour. <br><br><strong>B:</strong> Yes, he can be very <span class=""highlight"">amusing</span> at times.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise dialogue basic personality-traits
+"<div class=""exercise-front dialogue"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">💬 Dialogue Exercise</span>
+                <span class=""difficulty basic"">BASIC</span>
+            </div>
+            <div class=""question-content"">
+                <strong>A:</strong> I wish Joe would stop playing practical jokes all the time. It gets very tiring. <br><br><strong>B:</strong> Yes, he can be really _______ at times. I wish he'd grow up and behave like an adult.
+            </div>
+            <div class=""instruction"">💭 What word completes the dialogue?</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">silly</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                <strong>A:</strong> I wish Joe would stop playing practical jokes all the time. It gets very tiring. <br><br><strong>B:</strong> Yes, he can be really <span class=""highlight"">silly</span> at times. I wish he'd grow up and behave like an adult.
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise dialogue basic personality-traits
+"<div class=""exercise-front dialogue"">
+            <div class=""exercise-header"">
+                <span class=""exercise-type"">💬 Dialogue Exercise</span>
+                <span class=""difficulty basic"">BASIC</span>
+            </div>
+            <div class=""question-content"">
+                <strong>A:</strong> I told Anny that she shouldn't leave university but she never listens to me. <br><br><strong>B:</strong> No, she really can be very _______ when she wants, can't she?
+            </div>
+            <div class=""instruction"">💭 What word completes the dialogue?</div>
+        </div>"	"<div class=""exercise-back"">
+        <div class=""answer-reveal"">
+            <div class=""answer-label"">✅ Answer:</div>
+            <div class=""answer-text"">stubborn</div>
+        </div>
+        <div class=""complete-sentence"">
+            <div class=""complete-label"">📝 Complete sentence:</div>
+            <div class=""complete-text"">
+                <strong>A:</strong> I told Anny that she shouldn't leave university but she never listens to me. <br><br><strong>B:</strong> No, she really can be very <span class=""highlight"">stubborn</span> when she wants, can't she?
+            </div>
+        </div>
+        <div class=""context-info"">
+            <span class=""context-label"">Context:</span> personality traits
+        </div>
+    </div>"	exercise dialogue basic personality-traits

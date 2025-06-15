@@ -1,0 +1,17 @@
+# CLAUDE WRITING PRACTICE - LEARNING WORDS
+
+TARGET WORDS: friendly, generous, grateful
+
+WORD MEANINGS:
+- friendly: thân thiện
+- generous: rộng lượng hào phóng
+- grateful: biết ơn
+
+Setup: Copy this prompt to Claude and say:
+'Help me practice these personality words through writing exercises.'
+
+Practice Methods:
+- Write simple sentences using each word
+- Create character descriptions
+- Write short stories with these personalities
+- Get feedback on word usage
