@@ -1,0 +1,19 @@
+{
+  "imports": [
+    {
+      "file": "20250616_personal_traits.xlsx",
+      "timestamp": "2025-06-16T17:48:32.021864",
+      "profile": "Loi",
+      "stats": {
+        "vocabulary_cards": 68,
+        "cloze_cards": 0,
+        "pronunciation_cards": 68,
+        "exercise_cards": 21,
+        "media_downloaded": 136,
+        "errors": [
+          "['cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason', 'cannot create note for unknown reason']"
+        ]
+      }
+    }
+  ]
+}
