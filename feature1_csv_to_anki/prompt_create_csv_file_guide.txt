@@ -1,0 +1,65 @@
+Create a vocabulary CSV file for Anki import with the following guideline:
+
+## Bước 1: Chuẩn bị dữ liệu
+Từ ảnh, hoặc danh sách từ vựng được cung cấp, xác định danh sách các từ vựng tiếng anh.
+Dữ liệu có thể cung cấp thêm các thông tin liên quan đến từ vựng như (Word,Pronunciation,Vietnamese,Part_of_Speech,Example_Sentence,Fill_in_Blank_Question,Fill_in_Blank_Answer) mà được mô tả trong phần bên dưới.
+
+Vocabulary list: [...]
+
+## Bước 2: Tạo file vocabulary.csv
+Từ dữ liệu, điền vào file CSV, sheet 1, với tên sheet "vocabulary", theo mẫu:
+
+Column headers:
+Word,Pronunciation,Vietnamese,Part_of_Speech,Example_Sentence,Fill_in_Blank_Question,Fill_in_Blank_Answer
+
+### Cột Word: 
+- Ghi từ tiếng Anh (ví dụ: friendly)
+
+### Cột Pronunciation:
+- Copy phiên âm từ sách (ví dụ: /ˈfrendli/)
+- Nếu không có, để trống
+
+### Cột Vietnamese:
+- Ghi nghĩa tiếng Việt (ví dụ: thân thiện), nếu nghĩa này không phù hợp với Word (kết hợp cả các cột khác) thì tự cho nghĩa tiếng việt khác
+
+### Cột Part_of_Speech:
+- adj (tính từ), noun (danh từ), verb (động từ), adv (trạng từ)
+
+### Cột Example_Sentence:
+- Tạo câu ví dụ hoặc copy từ sách
+- Nếu không có, để trống
+
+### Cột Fill_in_Blank_Question:
+- Tạo câu hỏi điền từ (ví dụ: "She is very _______ to everyone.")
+- Nếu không muốn tạo, để trống
+
+### Cột Fill_in_Blank_Answer:
+- Điền từ cần điền (thường giống với cột Word)
+
+## Bước 3: nếu có thêm thông tin bài tập (exercises), điền vào file CSV, sheet 2, với tên sheet "exercises", theo mẫu:
+
+### Cột Question:
+- Copy nguyên câu hỏi, thay đáp án bằng _______
+- Ví dụ: "A/an _______ person who is very kind."
+
+### Cột Answer:
+- Điền đáp án đúng
+
+### Cột Type:
+- "definition" cho bài định nghĩa
+- "dialogue" cho bài đối thoại
+
+### Cột Difficulty:
+- "basic", "intermediate", hoặc "advanced"
+
+### Cột Context:
+- Chủ đề (ví dụ: "personality traits")
+
+Requirements:
+1. Include IPA pronunciation for each word
+2. Provide accurate Vietnamese translations
+3. Create meaningful example sentences
+4. Design fill-in-the-blank questions that test understanding
+5. Ensure proper CSV formatting (escape commas, use quotes when needed)
+
+Format as a proper CSV that can be directly saved and imported.
