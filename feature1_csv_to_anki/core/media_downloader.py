@@ -1,19 +1,10 @@
 #!/usr/bin/env python3
 """
 Media Downloader
-Downloads images and audio for vocabulary words
+Downloads images and audio for vocabulary words and stores them in Anki
 
 Author: Assistant
-Version: 3.0
-"""
-
-#!/usr/bin/env python3
-"""
-Media Downloader
-Downloads images and audio for vocabulary words, with caching support
-
-Author: Assistant
-Version: 3.1 (with local media cache)
+Version: 3.2 (Fixed Anki media storage)
 """
 
 import os
@@ -37,8 +28,8 @@ class MediaDownloader:
 
         # API Keys
         self.pixabay_key = os.environ.get('PIXABAY_API_KEY', '50872335-2b97ba59b3d6f172e1a571e5b')
-        self.pexels_key = os.environ.get('PEXELS_API_KEY', '')
-        self.unsplash_key = os.environ.get('UNSPLASH_API_KEY', '')
+        self.pexels_key = os.environ.get('PEXELS_API_KEY', 'NcnIox2PfBjNR7R8cTqiPR5dG47uXdenfN8VZReGgPgIXlIVNxdGmj68')
+        self.unsplash_key = os.environ.get('UNSPLASH_API_KEY', 'h9kVF9j3KpUYeHd_O1ywkNtappE2pyFebrZh-e2583s')
 
         # Rate limiting
         self.last_api_call = {}
@@ -57,17 +48,30 @@ class MediaDownloader:
 
     def download_image(self, word: str, part_of_speech: str = None,
                        vietnamese: str = None) -> Optional[str]:
+        """Download image and store in Anki, returns just the filename"""
         filename = f"{word.lower().replace(' ', '_')}.jpg"
         local_path = self.image_cache / filename
 
-        if local_path.exists():
-            self.logger.info(f"Using cached image: {local_path}")
-            return str(local_path)
-
+        # Check if already in Anki
         if self.anki_client and self._check_media_exists(filename):
             self.logger.info(f"Image already in Anki: {filename}")
             return filename
 
+        # Check local cache
+        if local_path.exists():
+            self.logger.info(f"Using cached image: {local_path}")
+            # Upload to Anki from cache
+            if self.anki_client:
+                with open(local_path, 'rb') as f:
+                    image_data = f.read()
+                try:
+                    self.anki_client.store_media_file(filename, image_data)
+                    return filename
+                except Exception as e:
+                    self.logger.error(f"Failed to store in Anki: {e}")
+            return filename
+
+        # Download new image
         image_data = None
         image_data, _ = self._try_langeek(word)
 
@@ -88,15 +92,17 @@ class MediaDownloader:
 
         if image_data:
             try:
+                # Save to local cache
                 with open(local_path, 'wb') as f:
                     f.write(image_data)
                 self.logger.info(f"Saved image locally: {local_path}")
 
+                # Store in Anki
                 if self.anki_client:
                     stored_filename = self.anki_client.store_media_file(filename, image_data)
-                    return stored_filename
+                    return filename  # Return just the filename, not the full path
 
-                return str(local_path)
+                return filename
 
             except Exception as e:
                 self.logger.error(f"Failed to save image {filename}: {e}")
@@ -104,37 +110,52 @@ class MediaDownloader:
         return None
 
     def download_audio(self, word: str, pronunciation: str = None) -> Optional[str]:
+        """Download audio and store in Anki, returns just the filename"""
         filename = f"{word.lower().replace(' ', '_')}.mp3"
         local_path = self.audio_cache / filename
 
-        if local_path.exists():
-            self.logger.info(f"Using cached audio: {local_path}")
-            return str(local_path)
-
+        # Check if already in Anki
         if self.anki_client and self._check_media_exists(filename):
             self.logger.info(f"Audio already in Anki: {filename}")
             return filename
 
+        # Check local cache
+        if local_path.exists():
+            self.logger.info(f"Using cached audio: {local_path}")
+            # Upload to Anki from cache
+            if self.anki_client:
+                with open(local_path, 'rb') as f:
+                    audio_data = f.read()
+                try:
+                    self.anki_client.store_media_file(filename, audio_data)
+                    return filename
+                except Exception as e:
+                    self.logger.error(f"Failed to store in Anki: {e}")
+            return filename
+
+        # Generate new audio
         try:
-            tts = gTTS(text=word, lang='en', slow=True)
+            # Use normal speed instead of slow for better quality
+            tts = gTTS(text=word, lang='en', slow=False)
             audio_buffer = io.BytesIO()
             tts.write_to_fp(audio_buffer)
             audio_data = audio_buffer.getvalue()
 
+            # Save to local cache
             with open(local_path, 'wb') as f:
                 f.write(audio_data)
             self.logger.info(f"Saved audio locally: {local_path}")
 
+            # Store in Anki
             if self.anki_client:
                 stored_filename = self.anki_client.store_media_file(filename, audio_data)
-                return stored_filename
+                return filename  # Return just the filename, not the full path
 
-            return str(local_path)
+            return filename
 
         except Exception as e:
             self.logger.error(f"Failed to generate audio for {word}: {e}")
             return None
-
 
     def _check_media_exists(self, filename: str) -> bool:
         """Check if media file already exists in Anki"""

@@ -1,0 +1,1418 @@
+{
+  "version": "2.0",
+  "last_updated": "2025-06-16T20:39:04.820730",
+  "profiles": {
+    "Hang": {
+      "media": {
+        "friendly.jpg": {
+          "added_date": "2025-06-16T20:34:20.457077",
+          "metadata": {
+            "word": "friendly",
+            "part_of_speech": "adj",
+            "vietnamese": "thân thiện",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "friendly.mp3": {
+          "added_date": "2025-06-16T20:34:22.632334",
+          "metadata": {
+            "word": "friendly",
+            "pronunciation": "/ˈfrendli/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "fussy.jpg": {
+          "added_date": "2025-06-16T20:34:24.795370",
+          "metadata": {
+            "word": "fussy",
+            "part_of_speech": "adj",
+            "vietnamese": "cầu kỳ kiểu cách",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "fussy.mp3": {
+          "added_date": "2025-06-16T20:34:26.953357",
+          "metadata": {
+            "word": "fussy",
+            "pronunciation": "/ˈfʌsi/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "generous.jpg": {
+          "added_date": "2025-06-16T20:34:29.108611",
+          "metadata": {
+            "word": "generous",
+            "part_of_speech": "adj",
+            "vietnamese": "rộng lượng hào phóng",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "generous.mp3": {
+          "added_date": "2025-06-16T20:34:31.269926",
+          "metadata": {
+            "word": "generous",
+            "pronunciation": "/ˈdʒenərəs/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "grateful.jpg": {
+          "added_date": "2025-06-16T20:34:33.416920",
+          "metadata": {
+            "word": "grateful",
+            "part_of_speech": "adj",
+            "vietnamese": "biết ơn",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "grateful.mp3": {
+          "added_date": "2025-06-16T20:34:35.686111",
+          "metadata": {
+            "word": "grateful",
+            "pronunciation": "/ˈgreɪtfəl/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "honest.jpg": {
+          "added_date": "2025-06-16T20:34:37.821250",
+          "metadata": {
+            "word": "honest",
+            "part_of_speech": "adj",
+            "vietnamese": "thật thà lương thiện",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "honest.mp3": {
+          "added_date": "2025-06-16T20:34:39.960083",
+          "metadata": {
+            "word": "honest",
+            "pronunciation": "/ˈɒnɪst/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "kind.jpg": {
+          "added_date": "2025-06-16T20:34:42.096910",
+          "metadata": {
+            "word": "kind",
+            "part_of_speech": "adj",
+            "vietnamese": "tử tế tốt bụng",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "kind.mp3": {
+          "added_date": "2025-06-16T20:34:44.230363",
+          "metadata": {
+            "word": "kind",
+            "pronunciation": "/kaɪnd/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "loyal.jpg": {
+          "added_date": "2025-06-16T20:34:46.392145",
+          "metadata": {
+            "word": "loyal",
+            "part_of_speech": "adj",
+            "vietnamese": "trung thành trung nghĩa",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "loyal.mp3": {
+          "added_date": "2025-06-16T20:34:48.517244",
+          "metadata": {
+            "word": "loyal",
+            "pronunciation": "/ˈlɔɪəl/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "mature.jpg": {
+          "added_date": "2025-06-16T20:34:50.660257",
+          "metadata": {
+            "word": "mature",
+            "part_of_speech": "adj",
+            "vietnamese": "trưởng thành",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "mature.mp3": {
+          "added_date": "2025-06-16T20:34:52.804485",
+          "metadata": {
+            "word": "mature",
+            "pronunciation": "/məˈtʃʊə/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "mean.jpg": {
+          "added_date": "2025-06-16T20:34:54.945076",
+          "metadata": {
+            "word": "mean",
+            "part_of_speech": "adj",
+            "vietnamese": "keo kiệt",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "mean.mp3": {
+          "added_date": "2025-06-16T20:34:57.106969",
+          "metadata": {
+            "word": "mean",
+            "pronunciation": "/miːn/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "modest.jpg": {
+          "added_date": "2025-06-16T20:34:59.242141",
+          "metadata": {
+            "word": "modest",
+            "part_of_speech": "adj",
+            "vietnamese": "khiêm tốn nhụt nhi",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "modest.mp3": {
+          "added_date": "2025-06-16T20:35:01.378941",
+          "metadata": {
+            "word": "modest",
+            "pronunciation": "/ˈmɒdɪst/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "nasty.jpg": {
+          "added_date": "2025-06-16T20:35:03.516813",
+          "metadata": {
+            "word": "nasty",
+            "part_of_speech": "adj",
+            "vietnamese": "bẩn thỉu thô tục",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "nasty.mp3": {
+          "added_date": "2025-06-16T20:35:05.668615",
+          "metadata": {
+            "word": "nasty",
+            "pronunciation": "/ˈnɑːsti/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "nice.jpg": {
+          "added_date": "2025-06-16T20:35:07.802250",
+          "metadata": {
+            "word": "nice",
+            "part_of_speech": "adj",
+            "vietnamese": "xinh đẹp ngoan chủ động",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "nice.mp3": {
+          "added_date": "2025-06-16T20:35:09.942570",
+          "metadata": {
+            "word": "nice",
+            "pronunciation": "/naɪs/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "patient.jpg": {
+          "added_date": "2025-06-16T20:35:12.073536",
+          "metadata": {
+            "word": "patient",
+            "part_of_speech": "adj",
+            "vietnamese": "kiên nhẫn bền chí",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "patient.mp3": {
+          "added_date": "2025-06-16T20:35:14.219241",
+          "metadata": {
+            "word": "patient",
+            "pronunciation": "/ˈpeɪʃənt/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "reliable.jpg": {
+          "added_date": "2025-06-16T20:35:16.407976",
+          "metadata": {
+            "word": "reliable",
+            "part_of_speech": "adj",
+            "vietnamese": "chín chắn đáng tin cậy",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "reliable.mp3": {
+          "added_date": "2025-06-16T20:35:18.482823",
+          "metadata": {
+            "word": "reliable",
+            "pronunciation": "/rɪˈlaɪəbəl/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "reserved.jpg": {
+          "added_date": "2025-06-16T20:35:20.644714",
+          "metadata": {
+            "word": "reserved",
+            "part_of_speech": "adj",
+            "vietnamese": "kín đáo ít nói",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "reserved.mp3": {
+          "added_date": "2025-06-16T20:35:22.727885",
+          "metadata": {
+            "word": "reserved",
+            "pronunciation": "/rɪˈzɜːvd/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "rude.jpg": {
+          "added_date": "2025-06-16T20:35:24.866670",
+          "metadata": {
+            "word": "rude",
+            "part_of_speech": "adj",
+            "vietnamese": "thô lỗ man rợ độc ác",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "rude.mp3": {
+          "added_date": "2025-06-16T20:35:27.127555",
+          "metadata": {
+            "word": "rude",
+            "pronunciation": "/ruːd/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "selfish.jpg": {
+          "added_date": "2025-06-16T20:35:29.264914",
+          "metadata": {
+            "word": "selfish",
+            "part_of_speech": "adj",
+            "vietnamese": "ích kỷ",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "selfish.mp3": {
+          "added_date": "2025-06-16T20:35:31.521375",
+          "metadata": {
+            "word": "selfish",
+            "pronunciation": "/ˈselfɪʃ/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "sensible.jpg": {
+          "added_date": "2025-06-16T20:35:33.661752",
+          "metadata": {
+            "word": "sensible",
+            "part_of_speech": "adj",
+            "vietnamese": "biết điều có óc xét đoán",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "sensible.mp3": {
+          "added_date": "2025-06-16T20:35:35.823588",
+          "metadata": {
+            "word": "sensible",
+            "pronunciation": "/ˈsensəbəl/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "spiteful.jpg": {
+          "added_date": "2025-06-16T20:35:37.957950",
+          "metadata": {
+            "word": "spiteful",
+            "part_of_speech": "adj",
+            "vietnamese": "hận hộc đầy thù hận",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "spiteful.mp3": {
+          "added_date": "2025-06-16T20:35:40.098533",
+          "metadata": {
+            "word": "spiteful",
+            "pronunciation": "/ˈspaɪtfəl/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "stubborn.jpg": {
+          "added_date": "2025-06-16T20:35:42.246103",
+          "metadata": {
+            "word": "stubborn",
+            "part_of_speech": "adj",
+            "vietnamese": "bướng bỉnh ngoan cố",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "stubborn.mp3": {
+          "added_date": "2025-06-16T20:35:44.394150",
+          "metadata": {
+            "word": "stubborn",
+            "pronunciation": "/ˈstʌbən/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "stupid.jpg": {
+          "added_date": "2025-06-16T20:35:46.536699",
+          "metadata": {
+            "word": "stupid",
+            "part_of_speech": "adj",
+            "vietnamese": "ngu ngốc chậm hiểu",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "stupid.mp3": {
+          "added_date": "2025-06-16T20:35:48.667788",
+          "metadata": {
+            "word": "stupid",
+            "pronunciation": "/ˈstjuːpɪd/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "tense.jpg": {
+          "added_date": "2025-06-16T20:35:50.806861",
+          "metadata": {
+            "word": "tense",
+            "part_of_speech": "adj",
+            "vietnamese": "căng thẳng bồn chồn hồi hộp",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "tense.mp3": {
+          "added_date": "2025-06-16T20:35:52.946216",
+          "metadata": {
+            "word": "tense",
+            "pronunciation": "/tens/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "tired.jpg": {
+          "added_date": "2025-06-16T20:35:55.082776",
+          "metadata": {
+            "word": "tired",
+            "part_of_speech": "adj",
+            "vietnamese": "mệt mỏi",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "tired.mp3": {
+          "added_date": "2025-06-16T20:35:57.226396",
+          "metadata": {
+            "word": "tired",
+            "pronunciation": "/ˈtaɪəd/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "tolerant.jpg": {
+          "added_date": "2025-06-16T20:35:59.332550",
+          "metadata": {
+            "word": "tolerant",
+            "part_of_speech": "adj",
+            "vietnamese": "khoan dung",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "tolerant.mp3": {
+          "added_date": "2025-06-16T20:36:01.545663",
+          "metadata": {
+            "word": "tolerant",
+            "pronunciation": "/ˈtɒlərənt/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "trust.jpg": {
+          "added_date": "2025-06-16T20:36:03.661011",
+          "metadata": {
+            "word": "trust",
+            "part_of_speech": "adj",
+            "vietnamese": "lòng tin sự tin nhiệm",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "trust.mp3": {
+          "added_date": "2025-06-16T20:36:05.874066",
+          "metadata": {
+            "word": "trust",
+            "pronunciation": "/trʌst/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "bigoted.jpg": {
+          "added_date": "2025-06-16T20:36:07.999435",
+          "metadata": {
+            "word": "bigoted",
+            "part_of_speech": "adj",
+            "vietnamese": "tin mù quáng",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "bigoted.mp3": {
+          "added_date": "2025-06-16T20:36:10.190373",
+          "metadata": {
+            "word": "bigoted",
+            "pronunciation": "/ˈbɪgətɪd/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "bitchy.jpg": {
+          "added_date": "2025-06-16T20:36:12.344950",
+          "metadata": {
+            "word": "bitchy",
+            "part_of_speech": "adj",
+            "vietnamese": "cáu ác ý",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "bitchy.mp3": {
+          "added_date": "2025-06-16T20:36:14.442634",
+          "metadata": {
+            "word": "bitchy",
+            "pronunciation": "/ˈbɪtʃi/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "bossy.jpg": {
+          "added_date": "2025-06-16T20:36:16.515956",
+          "metadata": {
+            "word": "bossy",
+            "part_of_speech": "adj",
+            "vietnamese": "hống hách hách dịch",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "bossy.mp3": {
+          "added_date": "2025-06-16T20:36:18.629899",
+          "metadata": {
+            "word": "bossy",
+            "pronunciation": "/ˈbɒsi/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "careless.jpg": {
+          "added_date": "2025-06-16T20:36:20.729693",
+          "metadata": {
+            "word": "careless",
+            "part_of_speech": "adj",
+            "vietnamese": "sơ suất bất cẩn",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "careless.mp3": {
+          "added_date": "2025-06-16T20:36:22.860182",
+          "metadata": {
+            "word": "careless",
+            "pronunciation": "/ˈkeələs/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "conceited.jpg": {
+          "added_date": "2025-06-16T20:36:24.948544",
+          "metadata": {
+            "word": "conceited",
+            "part_of_speech": "adj",
+            "vietnamese": "tự phụ tự cao tự đại",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "conceited.mp3": {
+          "added_date": "2025-06-16T20:36:27.070191",
+          "metadata": {
+            "word": "conceited",
+            "pronunciation": "/kənˈsiːtɪd/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "creative.jpg": {
+          "added_date": "2025-06-16T20:36:29.160722",
+          "metadata": {
+            "word": "creative",
+            "part_of_speech": "adj",
+            "vietnamese": "sáng tạo",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "creative.mp3": {
+          "added_date": "2025-06-16T20:36:31.342855",
+          "metadata": {
+            "word": "creative",
+            "pronunciation": "/kriˈeɪtɪv/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "dull.jpg": {
+          "added_date": "2025-06-16T20:36:33.467796",
+          "metadata": {
+            "word": "dull",
+            "part_of_speech": "adj",
+            "vietnamese": "chậm hiểu ngu dốn thần thờ",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "dull.mp3": {
+          "added_date": "2025-06-16T20:36:35.657412",
+          "metadata": {
+            "word": "dull",
+            "pronunciation": "/dʌl/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "garrulous.jpg": {
+          "added_date": "2025-06-16T20:36:37.758789",
+          "metadata": {
+            "word": "garrulous",
+            "part_of_speech": "adj",
+            "vietnamese": "nói nhiều ba hoa lắm mồm",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "garrulous.mp3": {
+          "added_date": "2025-06-16T20:36:39.957098",
+          "metadata": {
+            "word": "garrulous",
+            "pronunciation": "/ˈgærələs/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "gentle.jpg": {
+          "added_date": "2025-06-16T20:36:42.118984",
+          "metadata": {
+            "word": "gentle",
+            "part_of_speech": "adj",
+            "vietnamese": "hiền lành dịu dàng hòa nhã",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "gentle.mp3": {
+          "added_date": "2025-06-16T20:36:44.233116",
+          "metadata": {
+            "word": "gentle",
+            "pronunciation": "/ˈdʒentəl/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "greedy.jpg": {
+          "added_date": "2025-06-16T20:36:46.365779",
+          "metadata": {
+            "word": "greedy",
+            "part_of_speech": "adj",
+            "vietnamese": "tham lam",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "greedy.mp3": {
+          "added_date": "2025-06-16T20:36:48.491803",
+          "metadata": {
+            "word": "greedy",
+            "pronunciation": "/ˈgriːdi/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "gregarious.jpg": {
+          "added_date": "2025-06-16T20:36:50.626001",
+          "metadata": {
+            "word": "gregarious",
+            "part_of_speech": "adj",
+            "vietnamese": "thích đàn đúm thích giao du",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "gregarious.mp3": {
+          "added_date": "2025-06-16T20:36:52.736955",
+          "metadata": {
+            "word": "gregarious",
+            "pronunciation": "/grɪˈgeəriəs/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "heartless.jpg": {
+          "added_date": "2025-06-16T20:36:54.847304",
+          "metadata": {
+            "word": "heartless",
+            "part_of_speech": "adj",
+            "vietnamese": "vô tâm nhẫn tâm",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "heartless.mp3": {
+          "added_date": "2025-06-16T20:36:56.960486",
+          "metadata": {
+            "word": "heartless",
+            "pronunciation": "/ˈhɑːtləs/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "industrious.jpg": {
+          "added_date": "2025-06-16T20:36:59.161048",
+          "metadata": {
+            "word": "industrious",
+            "part_of_speech": "adj",
+            "vietnamese": "cần cù siêng năng chăm chỉ",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "industrious.mp3": {
+          "added_date": "2025-06-16T20:37:01.266638",
+          "metadata": {
+            "word": "industrious",
+            "pronunciation": "/ɪnˈdʌstriəs/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "intelligent.jpg": {
+          "added_date": "2025-06-16T20:37:03.475823",
+          "metadata": {
+            "word": "intelligent",
+            "part_of_speech": "adj",
+            "vietnamese": "thông minh sáng dạ nhanh trí",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "intelligent.mp3": {
+          "added_date": "2025-06-16T20:37:05.590924",
+          "metadata": {
+            "word": "intelligent",
+            "pronunciation": "/ɪnˈtelɪdʒənt/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "lazy.jpg": {
+          "added_date": "2025-06-16T20:37:07.717627",
+          "metadata": {
+            "word": "lazy",
+            "part_of_speech": "adj",
+            "vietnamese": "lười biếng",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "lazy.mp3": {
+          "added_date": "2025-06-16T20:37:09.804867",
+          "metadata": {
+            "word": "lazy",
+            "pronunciation": "/ˈleɪzi/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "absent-minded.jpg": {
+          "added_date": "2025-06-16T20:37:12.004824",
+          "metadata": {
+            "word": "absent-minded",
+            "part_of_speech": "adj",
+            "vietnamese": "đãng trí",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "absent-minded.mp3": {
+          "added_date": "2025-06-16T20:37:14.098987",
+          "metadata": {
+            "word": "absent-minded",
+            "pronunciation": "/ˈæbsənt ˈmaɪndɪd/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "adventurous.jpg": {
+          "added_date": "2025-06-16T20:37:16.202577",
+          "metadata": {
+            "word": "adventurous",
+            "part_of_speech": "adj",
+            "vietnamese": "thích phiêu lưu",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "adventurous.mp3": {
+          "added_date": "2025-06-16T20:37:18.365859",
+          "metadata": {
+            "word": "adventurous",
+            "pronunciation": "/ədˈventʃərəs/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "aggressive.jpg": {
+          "added_date": "2025-06-16T20:37:20.468232",
+          "metadata": {
+            "word": "aggressive",
+            "part_of_speech": "adj",
+            "vietnamese": "hung hô hung hăng hiếu chiến",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "aggressive.mp3": {
+          "added_date": "2025-06-16T20:37:22.617474",
+          "metadata": {
+            "word": "aggressive",
+            "pronunciation": "/əˈgresɪv/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "ambitious.jpg": {
+          "added_date": "2025-06-16T20:37:24.724847",
+          "metadata": {
+            "word": "ambitious",
+            "part_of_speech": "adj",
+            "vietnamese": "đầy tham vọng",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "ambitious.mp3": {
+          "added_date": "2025-06-16T20:37:26.814087",
+          "metadata": {
+            "word": "ambitious",
+            "pronunciation": "/æmˈbɪʃəs/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "amusing.jpg": {
+          "added_date": "2025-06-16T20:37:28.931364",
+          "metadata": {
+            "word": "amusing",
+            "part_of_speech": "adj",
+            "vietnamese": "làm cho buồn cười",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "amusing.mp3": {
+          "added_date": "2025-06-16T20:37:31.090622",
+          "metadata": {
+            "word": "amusing",
+            "pronunciation": "/əˈmjuːzɪŋ/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "arrogant.jpg": {
+          "added_date": "2025-06-16T20:37:33.294704",
+          "metadata": {
+            "word": "arrogant",
+            "part_of_speech": "adj",
+            "vietnamese": "kiêu căng kiêu ngạo",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "arrogant.mp3": {
+          "added_date": "2025-06-16T20:37:35.412777",
+          "metadata": {
+            "word": "arrogant",
+            "pronunciation": "/ˈærəgənt/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "brave.jpg": {
+          "added_date": "2025-06-16T20:37:37.544964",
+          "metadata": {
+            "word": "brave",
+            "part_of_speech": "adj",
+            "vietnamese": "dũng cảm",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "brave.mp3": {
+          "added_date": "2025-06-16T20:37:39.671154",
+          "metadata": {
+            "word": "brave",
+            "pronunciation": "/breɪv/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "bright.jpg": {
+          "added_date": "2025-06-16T20:37:41.834380",
+          "metadata": {
+            "word": "bright",
+            "part_of_speech": "adj",
+            "vietnamese": "sáng sủa thông minh",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "bright.mp3": {
+          "added_date": "2025-06-16T20:37:43.935571",
+          "metadata": {
+            "word": "bright",
+            "pronunciation": "/braɪt/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "cheeky.jpg": {
+          "added_date": "2025-06-16T20:37:46.102553",
+          "metadata": {
+            "word": "cheeky",
+            "part_of_speech": "adj",
+            "vietnamese": "hỗn xược",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "cheeky.mp3": {
+          "added_date": "2025-06-16T20:37:48.287092",
+          "metadata": {
+            "word": "cheeky",
+            "pronunciation": "/ˈtʃiːki/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "clever.jpg": {
+          "added_date": "2025-06-16T20:37:50.407701",
+          "metadata": {
+            "word": "clever",
+            "part_of_speech": "adj",
+            "vietnamese": "thông minh",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "clever.mp3": {
+          "added_date": "2025-06-16T20:37:52.607230",
+          "metadata": {
+            "word": "clever",
+            "pronunciation": "/ˈklevə/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "confident.jpg": {
+          "added_date": "2025-06-16T20:37:54.710958",
+          "metadata": {
+            "word": "confident",
+            "part_of_speech": "adj",
+            "vietnamese": "tự tin",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "confident.mp3": {
+          "added_date": "2025-06-16T20:37:56.887050",
+          "metadata": {
+            "word": "confident",
+            "pronunciation": "/ˈkɒnfɪdənt/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "cowardly.jpg": {
+          "added_date": "2025-06-16T20:37:59.016344",
+          "metadata": {
+            "word": "cowardly",
+            "part_of_speech": "adj",
+            "vietnamese": "nhát gan",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "cowardly.mp3": {
+          "added_date": "2025-06-16T20:38:01.107442",
+          "metadata": {
+            "word": "cowardly",
+            "pronunciation": "/ˈkaʊədli/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "decisive.jpg": {
+          "added_date": "2025-06-16T20:38:03.238407",
+          "metadata": {
+            "word": "decisive",
+            "part_of_speech": "adj",
+            "vietnamese": "kiên quyết dứt khoát quyết đoán",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "decisive.mp3": {
+          "added_date": "2025-06-16T20:38:05.328978",
+          "metadata": {
+            "word": "decisive",
+            "pronunciation": "/dɪˈsaɪsɪv/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "easy-going.jpg": {
+          "added_date": "2025-06-16T20:38:07.451921",
+          "metadata": {
+            "word": "easy-going",
+            "part_of_speech": "adj",
+            "vietnamese": "dịu dàng dễ tính dễ gần",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "easy-going.mp3": {
+          "added_date": "2025-06-16T20:38:09.625779",
+          "metadata": {
+            "word": "easy-going",
+            "pronunciation": "/ˈiːzi ˈgəʊɪŋ/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "loving.jpg": {
+          "added_date": "2025-06-16T20:38:11.732272",
+          "metadata": {
+            "word": "loving",
+            "part_of_speech": "adj",
+            "vietnamese": "âu yếm đầm ấm",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "loving.mp3": {
+          "added_date": "2025-06-16T20:38:13.905230",
+          "metadata": {
+            "word": "loving",
+            "pronunciation": "/ˈlʌvɪŋ/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "optimistic.jpg": {
+          "added_date": "2025-06-16T20:38:16.073739",
+          "metadata": {
+            "word": "optimistic",
+            "part_of_speech": "adj",
+            "vietnamese": "lạc quan",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "optimistic.mp3": {
+          "added_date": "2025-06-16T20:38:18.194877",
+          "metadata": {
+            "word": "optimistic",
+            "pronunciation": "/ˌɒptɪˈmɪstɪk/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "pessimistic.jpg": {
+          "added_date": "2025-06-16T20:38:20.378263",
+          "metadata": {
+            "word": "pessimistic",
+            "part_of_speech": "adj",
+            "vietnamese": "bi quan",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "pessimistic.mp3": {
+          "added_date": "2025-06-16T20:38:22.453027",
+          "metadata": {
+            "word": "pessimistic",
+            "pronunciation": "/ˌpesɪˈmɪstɪk/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "picky.jpg": {
+          "added_date": "2025-06-16T20:38:24.594073",
+          "metadata": {
+            "word": "picky",
+            "part_of_speech": "adj",
+            "vietnamese": "cầu kỳ kiểu cách kén cá chọn canh",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "picky.mp3": {
+          "added_date": "2025-06-16T20:38:26.686251",
+          "metadata": {
+            "word": "picky",
+            "pronunciation": "/ˈpɪki/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "punctual.jpg": {
+          "added_date": "2025-06-16T20:38:28.809071",
+          "metadata": {
+            "word": "punctual",
+            "part_of_speech": "adj",
+            "vietnamese": "có tính đúng giờ",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "punctual.mp3": {
+          "added_date": "2025-06-16T20:38:30.901341",
+          "metadata": {
+            "word": "punctual",
+            "pronunciation": "/ˈpʌŋktʃuəl/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "self-centred.jpg": {
+          "added_date": "2025-06-16T20:38:33.028027",
+          "metadata": {
+            "word": "self-centred",
+            "part_of_speech": "adj",
+            "vietnamese": "chỉ biết mình",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "self-centred.mp3": {
+          "added_date": "2025-06-16T20:38:35.194170",
+          "metadata": {
+            "word": "self-centred",
+            "pronunciation": "/self ˈsentəd/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "sensitive.jpg": {
+          "added_date": "2025-06-16T20:38:37.294037",
+          "metadata": {
+            "word": "sensitive",
+            "part_of_speech": "adj",
+            "vietnamese": "nhạy cảm có sự cảm kích",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "sensitive.mp3": {
+          "added_date": "2025-06-16T20:38:39.408481",
+          "metadata": {
+            "word": "sensitive",
+            "pronunciation": "/ˈsensətɪv/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "sociable.jpg": {
+          "added_date": "2025-06-16T20:38:41.502540",
+          "metadata": {
+            "word": "sociable",
+            "part_of_speech": "adj",
+            "vietnamese": "dễ gần chan hòa hòa đồng",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "sociable.mp3": {
+          "added_date": "2025-06-16T20:38:43.569937",
+          "metadata": {
+            "word": "sociable",
+            "pronunciation": "/ˈsəʊʃəbəl/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "stingy.jpg": {
+          "added_date": "2025-06-16T20:38:45.710956",
+          "metadata": {
+            "word": "stingy",
+            "part_of_speech": "adj",
+            "vietnamese": "keo kiệt bủn xỉn",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "stingy.mp3": {
+          "added_date": "2025-06-16T20:38:47.817008",
+          "metadata": {
+            "word": "stingy",
+            "pronunciation": "/ˈstɪndʒi/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "tetchy.jpg": {
+          "added_date": "2025-06-16T20:38:49.943901",
+          "metadata": {
+            "word": "tetchy",
+            "part_of_speech": "adj",
+            "vietnamese": "hay bực mình cáu kỉnh cáu nhau",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "tetchy.mp3": {
+          "added_date": "2025-06-16T20:38:52.126367",
+          "metadata": {
+            "word": "tetchy",
+            "pronunciation": "/ˈtetʃi/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "timid.jpg": {
+          "added_date": "2025-06-16T20:38:54.244722",
+          "metadata": {
+            "word": "timid",
+            "part_of_speech": "adj",
+            "vietnamese": "rụt rè nhút nhát bẽn lẽn dễ sợ hãi",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "timid.mp3": {
+          "added_date": "2025-06-16T20:38:56.377975",
+          "metadata": {
+            "word": "timid",
+            "pronunciation": "/ˈtɪmɪd/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "vain.jpg": {
+          "added_date": "2025-06-16T20:38:58.559248",
+          "metadata": {
+            "word": "vain",
+            "part_of_speech": "adj",
+            "vietnamese": "kiêu ngạo tự phụ tự đắc",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "vain.mp3": {
+          "added_date": "2025-06-16T20:39:00.634279",
+          "metadata": {
+            "word": "vain",
+            "pronunciation": "/veɪn/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "witty.jpg": {
+          "added_date": "2025-06-16T20:39:02.727933",
+          "metadata": {
+            "word": "witty",
+            "part_of_speech": "adj",
+            "vietnamese": "hóm hỉnh dí dỏm",
+            "source": "local_cache",
+            "profile": "Hang"
+          },
+          "verified": true
+        },
+        "witty.mp3": {
+          "added_date": "2025-06-16T20:39:04.820721",
+          "metadata": {
+            "word": "witty",
+            "pronunciation": "/ˈwɪti/",
+            "source": "tts_generated",
+            "profile": "Hang"
+          },
+          "verified": true
+        }
+      },
+      "anki_media_dir": "C:\\Users\\duong\\AppData\\Roaming\\Anki2\\Hang\\collection.media"
+    }
+  }
+}

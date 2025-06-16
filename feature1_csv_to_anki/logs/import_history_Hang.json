@@ -1,0 +1,17 @@
+{
+  "imports": [
+    {
+      "file": "20250616_personal_traits.xlsx",
+      "profile": "Hang",
+      "timestamp": "2025-06-16T20:34:17.926159",
+      "stats": {
+        "vocabulary_cards": 68,
+        "cloze_cards": 68,
+        "pronunciation_cards": 68,
+        "exercise_cards": 21,
+        "media_downloaded": 136,
+        "errors": []
+      }
+    }
+  ]
+}

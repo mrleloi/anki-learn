@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Card Generator
+Card Generator - Fixed CSS in f-string issue
 Generates different types of Anki cards from CSV data
 
 Author: Assistant
-Version: 3.1 (Fixed CSS and f-string escaping)
+Version: 3.3 (Fixed CSS syntax error)
 """
 
 import pandas as pd
@@ -133,16 +133,21 @@ class CardGenerator:
         pos = escape(wd['part_of_speech'])
         img = wd.get('image', '')
         aud = wd.get('audio', '')
-        html = f"""
-<div class=\"vocab-card front\">
-  <div class=\"word-main\">{w}</div>
-  {f'<div class=\"pronunciation\">{p}</div>' if p else ''}
-  {f'<div class=\"part-of-speech\">({pos})</div>' if pos else ''}
-  {f'<img src=\"{img}\" class=\"word-image\">' if img else ''}
-  {f'[sound:{aud}]' if aud else ''}
-  <div class=\"prompt\">What does this word mean?</div>
-</div>
-""" + """
+        
+        # Extract just the filename from paths
+        if img and ('\\' in img or '/' in img):
+            img = img.split('\\')[-1].split('/')[-1]
+        if aud and ('\\' in aud or '/' in aud):
+            aud = aud.split('\\')[-1].split('/')[-1]
+        
+        # Tạo HTML content trước
+        pronunciation_html = f'<div class="pronunciation">{p}</div>' if p else ''
+        pos_html = f'<div class="part-of-speech">({pos})</div>' if pos else ''
+        img_html = f'<img src="{img}" class="word-image">' if img else ''
+        audio_html = f'[sound:{aud}]' if aud else ''
+        
+        # CSS được tách biệt, không trong f-string
+        css_styles = """
 <style>
 .vocab-card {
   font-family: Arial, sans-serif;
@@ -180,27 +185,28 @@ class CardGenerator:
 }
 </style>
 """
+        
+        html = f"""
+<div class="vocab-card front">
+  <div class="word-main">{w}</div>
+  {pronunciation_html}
+  {pos_html}
+  {img_html}
+  {audio_html}
+  <div class="prompt">What does this word mean?</div>
+</div>
+{css_styles}"""
+        
         return html
 
     def _create_vocabulary_back(self, wd: Dict[str, Any]) -> str:
         w = escape(wd['word'])
         vn = escape(wd['vietnamese'])
         ex = escape(wd['example_sentence'])
-        html = f"""
-<div class=\"vocab-card back\">
-  <div class=\"meaning\">{vn}</div>
-  <div class=\"word-repeat\">{w}</div>
-  {f'<div class=\"example\"><strong>Example:</strong> {ex}</div>' if ex else ''}
-  <div class=\"memory-tips\">
-    <div class=\"tip-title\">💡 Memory Tips:</div>
-    <ul>
-      <li>Use this word in a sentence today</li>
-      <li>Think of someone who has this trait</li>
-      <li>Create a mental image</li>
-    </ul>
-  </div>
-</div>
-""" + """
+        
+        example_html = f'<div class="example"><strong>Example:</strong> {ex}</div>' if ex else ''
+        
+        css_styles = """
 <style>
 .meaning {
   font-size: 28px;
@@ -244,19 +250,34 @@ class CardGenerator:
 }
 </style>
 """
+        
+        html = f"""
+<div class="vocab-card back">
+  <div class="meaning">{vn}</div>
+  <div class="word-repeat">{w}</div>
+  {example_html}
+  <div class="memory-tips">
+    <div class="tip-title">💡 Memory Tips:</div>
+    <ul>
+      <li>Use this word in a sentence today</li>
+      <li>Think of someone who has this trait</li>
+      <li>Create a mental image</li>
+    </ul>
+  </div>
+</div>
+{css_styles}"""
         return html
 
     def _create_cloze_text(self, wd: Dict[str, Any]) -> str:
         q = wd['fill_in_blank_question']
         ans = wd['fill_in_blank_answer'] or wd['word']
         vn = escape(wd['vietnamese'])
-        cloze = q.replace('_______', f'{{c1::{ans}}}')
-        html = f"""
-<div class=\"cloze-card\">
-  <div class=\"question\">{cloze}</div>
-  <div class=\"hint\">Vietnamese: {vn}</div>
-</div>
-""" + """
+        
+        # FIXED: Use double curly braces in the string, NOT in f-string
+        # This creates {{c1::answer}} in the final output
+        cloze = q.replace('_______', '{{c1::' + ans + '}}')
+        
+        css_styles = """
 <style>
 .cloze-card {
   font-family: Arial, sans-serif;
@@ -281,29 +302,31 @@ class CardGenerator:
 }
 </style>
 """
+        
+        html = f"""
+<div class="cloze-card">
+  <div class="question">{cloze}</div>
+  <div class="hint">Vietnamese: {vn}</div>
+</div>
+{css_styles}"""
         return html
 
     def _create_cloze_extra(self, wd: Dict[str, Any]) -> str:
         w = escape(wd['word'])
         p = escape(wd['pronunciation'])
         info = f"<strong>Word:</strong> {w}" + (f"<br><strong>Pronunciation:</strong> {p}" if p else '')
-        return f"<div class=\"extra-info\">{info}</div>"
+        return f'<div class="extra-info">{info}</div>'
 
     def _create_pronunciation_front(self, wd: Dict[str, Any]) -> str:
         aud = wd.get('audio', '')
-        html = f"""
-<div class=\"pronunciation-card front\">
-  <div class=\"instruction\">🎧 Listen and pronounce this word</div>
-  {f'[sound:{aud}]' if aud else ''}
-  <div class=\"task\">
-    <ol>
-      <li>Listen to the audio</li>
-      <li>Repeat 3 times</li>
-      <li>Check your pronunciation</li>
-    </ol>
-  </div>
-</div>
-""" + """
+        
+        # Extract just the filename from path
+        if aud and ('\\' in aud or '/' in aud):
+            aud = aud.split('\\')[-1].split('/')[-1]
+        
+        audio_html = f'[sound:{aud}]' if aud else ''
+        
+        css_styles = """
 <style>
 .pronunciation-card {
   font-family: Arial, sans-serif;
@@ -330,27 +353,28 @@ class CardGenerator:
 }
 </style>
 """
+        
+        html = f"""
+<div class="pronunciation-card front">
+  <div class="instruction">🎧 Listen and pronounce this word</div>
+  {audio_html}
+  <div class="task">
+    <ol>
+      <li>Listen to the audio</li>
+      <li>Repeat 3 times</li>
+      <li>Check your pronunciation</li>
+    </ol>
+  </div>
+</div>
+{css_styles}"""
         return html
 
     def _create_pronunciation_back(self, wd: Dict[str, Any]) -> str:
         w = escape(wd['word'])
         p = escape(wd['pronunciation'])
         vn = escape(wd['vietnamese'])
-        html = f"""
-<div class=\"pronunciation-card back\">
-  <div class=\"word\">{w}</div>
-  <div class=\"pronunciation\">{p}</div>
-  <div class=\"meaning\">{vn}</div>
-  <div class=\"tips\">
-    <strong>Pronunciation Tips:</strong>
-    <ul>
-      <li>Break it down: {p}</li>
-      <li>Practice slowly first</li>
-      <li>Record yourself</li>
-    </ul>
-  </div>
-</div>
-""" + """
+        
+        css_styles = """
 <style>
 .word {
   font-size: 32px;
@@ -383,24 +407,33 @@ class CardGenerator:
 }
 </style>
 """
+        
+        html = f"""
+<div class="pronunciation-card back">
+  <div class="word">{w}</div>
+  <div class="pronunciation">{p}</div>
+  <div class="meaning">{vn}</div>
+  <div class="tips">
+    <strong>Pronunciation Tips:</strong>
+    <ul>
+      <li>Break it down: {p}</li>
+      <li>Practice slowly first</li>
+      <li>Record yourself</li>
+    </ul>
+  </div>
+</div>
+{css_styles}"""
         return html
 
     def _create_exercise_front(self, ex: Dict[str, Any]) -> str:
         q = escape(ex.get('question', ''))
         et = escape(ex.get('type', 'general'))
         diff = escape(ex.get('difficulty', 'medium'))
+        
         if et == 'dialogue':
             q = q.replace('A:', '<strong>A:</strong>').replace('B:', '<br><strong>B:</strong>')
-        html = f"""
-<div class=\"exercise-card front\">
-  <div class=\"header\">
-    <span class=\"type\">{et.title()}</span>
-    <span class=\"difficulty {diff}\">{diff.upper()}</span>
-  </div>
-  <div class=\"question\">{q}</div>
-  <div class=\"prompt\">Think of the answer...</div>
-</div>
-""" + """
+        
+        css_styles = """
 <style>
 .exercise-card {
   font-family: Arial, sans-serif;
@@ -438,26 +471,28 @@ class CardGenerator:
 }
 </style>
 """
+        
+        html = f"""
+<div class="exercise-card front">
+  <div class="header">
+    <span class="type">{et.title()}</span>
+    <span class="difficulty {diff}">{diff.upper()}</span>
+  </div>
+  <div class="question">{q}</div>
+  <div class="prompt">Think of the answer...</div>
+</div>
+{css_styles}"""
         return html
 
     def _create_exercise_back(self, ex: Dict[str, Any]) -> str:
         ans = escape(ex.get('answer', ''))
         q = escape(ex.get('question', ''))
         ctx = escape(ex.get('context', ''))
+        
         complete = q.replace('_______', f'<span class="answer">{ans}</span>')
-        html = f"""
-<div class=\"exercise-card back\">
-  <div class=\"answer-section\">
-    <div class=\"label\">Answer:</div>
-    <div class=\"answer-text\">{ans}</div>
-  </div>
-  <div class=\"complete\">
-    <div class=\"label\">Complete sentence:</div>
-    <div class=\"complete-text\">{complete}</div>
-  </div>
-  {f'<div class=\"context\">Context: {ctx}</div>' if ctx else ''}
-</div>
-""" + """
+        context_html = f'<div class="context">Context: {ctx}</div>' if ctx else ''
+        
+        css_styles = """
 <style>
 .answer-section {
   margin-bottom: 20px;
@@ -492,4 +527,18 @@ class CardGenerator:
 }
 </style>
 """
+        
+        html = f"""
+<div class="exercise-card back">
+  <div class="answer-section">
+    <div class="label">Answer:</div>
+    <div class="answer-text">{ans}</div>
+  </div>
+  <div class="complete">
+    <div class="label">Complete sentence:</div>
+    <div class="complete-text">{complete}</div>
+  </div>
+  {context_html}
+</div>
+{css_styles}"""
         return html
